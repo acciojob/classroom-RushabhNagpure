@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("students")
 public class StudentController {
-    @Autowiredi
+    @Autowired
     StudentService service;
 
     @PostMapping("/add-student")
